@@ -8,7 +8,7 @@
 * _BOOTSTRAP 5.3.0_
 * _Javascript and jQuery {OOP}_
 * _Webpack & npm_
-
+* _Responsive
 
 ## Setup/Installation Requirements
 #### _For development, you will  need Node.js installed in your environement_
@@ -21,3 +21,8 @@
 |   Config & Deploy |  Styling   | Card List  | Accordion | Nested Dropdown
 |:------------------|:----------:|:----------:|:---------:|--------------------:|
 |        1          |      1     |      1     |    2      |       3             | 
+
+## Deployment 
+The project got deployed on: [https://saraparsa13.github.io/jquery-application/](https://saraparsa13.github.io/jquery-application/).
+
+## Demo
