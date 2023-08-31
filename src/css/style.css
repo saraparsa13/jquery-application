@@ -1,0 +1,181 @@
+body {
+  background: rgb(230, 243, 254);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menu-contianer {
+  background-color: rgb(252, 252, 252);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.322);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.332);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.234);
+  display: none;
+}
+
+#list-details {
+  box-shadow: rgba(255, 255, 255, 0.918) 0px 0px 0px 3px;
+  display: none;
+}
+
+.deleteButton {
+  padding: 8px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#list-details span {
+  font-weight: 700;
+}
+
+#entry-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#add-service {
+  background-color: white;
+  font-weight: 300;
+  border: 1px solid rgb(226, 226, 226);
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+}
+
+.service-card {
+  background-color: white;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 20px;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 15rem;
+  margin: 1rem 1rem 0 0;
+  /* display: none; */
+}
+
+.service-card:hover,
+#add-service:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.add-icon {
+  background-image: url("/src//assets/svg/icons8-plus.svg");
+  height: 24px;
+  width: 24px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+#close-icon {
+  background-image: url("/src//assets/svg/icons8-close.svg");
+  display: block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  background-image: url("/src//assets/svg/icons8-delete-button.svg");
+  display: block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.card-subtitle {
+  font-size: 0.75rem;
+  color: darkgray;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.card {
+  width: fit-content;
+  background-color: rgb(252, 252, 252);
+}
+
+.card-header {
+  font-size: 0.875rem;
+
+  border-left: 3px solid rgb(17, 49, 116);
+  border-bottom: 0;
+  border-radius: 0 !important;
+  background-color: rgb(252, 252, 252);
+}
+
+.list-group {
+  border-radius: 0;
+}
+
+li {
+  font-size: 0.75rem;
+  color: darkgray !important;
+}
+
+.list-group-item {
+  background-color: rgb(252, 252, 252);
+}
+
+.list-group-item:hover {
+  background-color:  rgb(17, 49, 116);
+  color: white !important;
+  cursor: pointer;
+}
+
+.list-group-item-active {
+  background-color:  rgb(17, 49, 116);
+  color: white !important;
+}
+
+.submit-button {
+  background-color: rgb(17, 49, 116);
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: rgb(21, 69, 173);
+  color: white;
+}
+
+#accordion {
+  margin-top: 2rem;
+}
+
+#navbarDropdown {
+  width: 100%;
+}
+
+.dropdown-submenu {
+  color: black !important;
+  margin-right: 1rem;
+}
+
+/* Hide bullets for all unordered lists */
+ul {
+  list-style: none;
+  padding-left: 0; /* Remove default padding */
+}
+
+/* Hide bullets for all list items */
+li {
+  list-style-type: none;
+}
