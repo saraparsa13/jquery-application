@@ -20,4 +20,4 @@
 ## Progress
 |   Config & Deploy |  Styling   | Card List  | Accordion | Nested Dropdown
 |:------------------|:----------:|:----------:|:---------:|--------------------:|
-|     1             |      1     |      1     |    2      |       3             | 
+|        1          |      1     |      1     |    2      |       3             | 
