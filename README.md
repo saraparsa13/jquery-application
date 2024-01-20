@@ -17,15 +17,5 @@
 * _Run npm install in your terminal to install libraries_
 * _Run npm start in your terminal_
 
-## Progress
-|   Config & Deploy |  Styling   | Card List  | Accordion | Nested Dropdown
-|:------------------|:----------:|:----------:|:---------:|--------------------:|
-|        1          |      1     |      1     |    2      |       3             | 
-
 ## Deployment 
 The project got deployed on: [https://saraparsa13.github.io/jquery-application/](https://saraparsa13.github.io/jquery-application/).
-
-## Demo
-
-https://github.com/saraparsa13/jquery-application/assets/52171220/d2a61500-ce2f-43ec-ae9f-c20c928203fd
-
